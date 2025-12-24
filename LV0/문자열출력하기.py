@@ -1,3 +1,4 @@
+# LV0 - 문자열출력하기 문제의 해답
 str = input()
 
 while True:
