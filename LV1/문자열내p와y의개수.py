@@ -1,4 +1,3 @@
-n = 0
-control = "wsdawsdassw"
-diction = dict(zip(['w', 's', 'd', 'a'], [1, -1, 10, -1]))
-print(n + sum([diction[c] for c in control]))
+# LV1 - 문재열 내 p와 y의 개수 문제의 해답
+def solution(s):
+    return True if s.lower().count('p') == s.lower().count('y') else False
