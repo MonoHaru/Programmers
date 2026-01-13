@@ -1,15 +1,8 @@
-queries = [[0, 4, 2],[0, 3, 2],[0, 2, 2]]
-arr = [0, 1, 2, 4, 3]
-# arr[0:4].sort()
-# print(sorted(arr))
-answer = []
-for s, e, k in queries:
-    tmp = []
-    for x in sorted(arr[s:e+1]):
-        if x > k:
-            tmp.append(x)
-            break
-    answer.append(-1 if not tmp else tmp[0])
-     #   if i == len(list) - 1:
-      #      answer.append(-1)
-print(answer)
+# LV0 - 배열 만들기 2 문제의 해답
+def solution(l, r):
+    answer = []
+    for i in range(l, r + 1):
+        num = set(str(i)) - set(['0', '5'])
+        if not num:
+            answer.append(i)
+    return [-1] if not answer else answer
