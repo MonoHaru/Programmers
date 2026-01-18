@@ -1,4 +1,4 @@
-# LV0 - 주사위 게미 3 문제의 해답
+# LV0 - 주사위 게임 3 문제의 해답
 def find_key(dictionary, indice):
     for key, value in dictionary.items():
         if value == indice:
