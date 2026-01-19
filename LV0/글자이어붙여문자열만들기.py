@@ -1,4 +1,4 @@
-# LV0 - 글자 이어 붙여 문자열 만들기
+# LV0 - 글자 이어 붙여 문자열 만들기 문제의 해답
 def solution(my_string, index_list):
     """
     :param my_string: 문자열
