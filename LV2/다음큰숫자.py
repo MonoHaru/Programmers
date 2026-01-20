@@ -11,5 +11,8 @@ def solution(n):
         n += 1
         if bin_n ==bin(n)[2:].count('1'):
             break
-        
+
     return n
+
+print(solution(78))  # 83
+print(solution(15))  # 23
