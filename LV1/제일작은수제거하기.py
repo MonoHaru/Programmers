@@ -1,4 +1,4 @@
-# LV1 - 제일 작은 수 제거하기
+# LV1 - 제일 작은 수 제거하기 문제의 해답
 def solution(arr):
     """
     :param arr: list -> 정수 배열
