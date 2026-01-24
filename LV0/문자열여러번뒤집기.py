@@ -1,4 +1,4 @@
-# LV0 - 문자열 여러 번 뒤집기
+# LV0 - 문자열 여러 번 뒤집기 문제의 해답
 def solution(my_string, queries):
     """
     :param my_string: str
