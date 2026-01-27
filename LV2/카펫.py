@@ -1,5 +1,10 @@
 # LV2 - 카펫 문제의 해답
 def solution(brown, yellow):
+    """
+    :param brown: int
+    :param yellow: int
+    :return: list
+    """
     for i in range(1, yellow + 1):
         if yellow % i == 0:
             x = i + 2
