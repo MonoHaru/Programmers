@@ -19,3 +19,6 @@ def solution(people, limit):
         if light == heavy:
             break
     return len(people) - cnt
+
+print(solution([70, 50, 80, 50], 100))  # 3
+print(solution([70, 80, 50], 100))  # 3
