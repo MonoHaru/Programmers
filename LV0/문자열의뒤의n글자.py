@@ -1,4 +1,4 @@
-# LV0 - 문자의 뒤의 n글자
+# LV0 - 문자의 뒤의 n글자 문제의 해답
 def solution(my_string, n):
     """
     :param my_string: str
