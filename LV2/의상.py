@@ -1,4 +1,9 @@
+# LV2 - 의상 문제의 해답
 def solution(clothes):
+    """
+    :param clothes: list
+    :return: int
+    """
     dict_clothes = dict()
     for name, type in clothes:
         if type not in dict_clothes.keys():
