@@ -13,5 +13,5 @@ def solution(a, b, n):
         n = coke + empty
     return drink
 
-print(solution(2. 1, 20))  # 19
+print(solution(2, 1, 20))  # 19
 print(solution(3, 1, 20))  # 9
