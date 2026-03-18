@@ -1,3 +1,4 @@
+# LV0 - n보다 커질 때까지 더하기 문제의 해답
 def solution(numbers, n):
     """
     :param numbers: list
