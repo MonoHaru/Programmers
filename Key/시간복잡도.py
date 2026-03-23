@@ -1,6 +1,10 @@
 # LV2 - 뒤에 있는 큰 수 찾기 문제의 해답
 def solution(numbers):
     """
+    Before:
+        - 단순하게 이중 for문을 사용해서 O(n^2) 시간 복잡도로 계산
+    After:
+        - Stack을 적용해서 O(n) 시간 복잡도로 계산
     :param numbers: list
     :return: list
     """
