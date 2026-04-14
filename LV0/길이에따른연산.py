@@ -1,3 +1,4 @@
+# LV0 - 길이에 따른 연산 문제의 해답
 def solution(num_list):
     """
     :param num_list: list
