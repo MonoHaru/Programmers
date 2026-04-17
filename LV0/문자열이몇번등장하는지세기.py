@@ -1,4 +1,4 @@
-# LV0 - 문자열이 몇 번 등장하는지 세기
+# LV0 - 문자열이 몇 번 등장하는지 세기 문제의 해답
 def solution(myString, pat):
     """
     :param myString: str
