@@ -10,3 +10,6 @@ def solution(strArr: list) -> list:
         list[str]: 'ad'가 제거된 문자열
     """
     return [str for str in strArr if "ad" not in str]
+
+print(solution(["and","notad","abcd"]))  # ["and","abcd"]
+print(solution(["there","are","no","a","ds"]))  # ["there","are","no","a","ds"]
