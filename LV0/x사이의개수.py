@@ -1,4 +1,5 @@
-def solution(myString):
+# LV0 - x 사이의 개수 문제의 해답
+def solution(myString: str) -> list:
     """
     x로 분할된 리스트의 길이로 배열을 만듭니다.
 
