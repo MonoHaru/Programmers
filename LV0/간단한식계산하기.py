@@ -1,5 +1,5 @@
 # LV0 - 간단한 식 계산하기 문제의 해답
-def solution(binomial: str) -> list:
+def solution(binomial: str) -> int:
     """
     간단한 식을 계산합니다.
 
