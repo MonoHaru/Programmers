@@ -1,4 +1,4 @@
-# LV0 - 세 개의 구분자
+# LV0 - 세 개의 구분자 문제의 해답
 def solution(myStr: str) -> list:
     """
     myStr에서 'a', 'b', 그리고 'c' 기준으로 분할한 결과를 반환합니다.
