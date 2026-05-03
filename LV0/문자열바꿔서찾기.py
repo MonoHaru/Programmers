@@ -1,7 +1,7 @@
 # LV0 - 문자열 바꿔서 찾기 문제의 해답
 def solution(
     myString: str, 
-    pat: str
+    pat: str,
 ) -> int:
     """
     myString에서 "A"와 "B"를 서로 바꾼 뒤,
