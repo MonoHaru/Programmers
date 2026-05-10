@@ -13,7 +13,7 @@ def solution(arr: list[int]) -> list[int]:
                    단, 완성된 배열이 빈 배열일 경우 [-1]을 반환합니다.
     """
     stk = []
-    for i, x in enumerate(arr):
+    for x in arr:
         if stk and stk[-1] == x:
             stk.pop()
         else:
