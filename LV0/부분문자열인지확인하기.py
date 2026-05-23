@@ -12,5 +12,5 @@ def solution(my_string: str, target: str) -> int:
     """
     return 1 if target in my_string else 0
 
-print(solution("banana", "ana"))  # 1
+print(solution("banana", "ana"))   # 1
 print(solution("banana", "wxyz"))  # 0
