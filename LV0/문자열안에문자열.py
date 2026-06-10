@@ -1,4 +1,4 @@
-# LV0 - 문자열안에 문자열
+# LV0 - 문자열안에 문자열 문제의 해답
 def solution(str1: str, str2: str) -> int:
     """주어진 문자열 str1안에 str2가 있는지 확인합니다.
 
