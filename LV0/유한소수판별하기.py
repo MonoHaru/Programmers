@@ -1,4 +1,4 @@
-# LV0 - 유한소수 판별하기
+# LV0 - 유한소수 판별하기 문제의 해답
 import math
 
 def solution(a: int, b: int) -> int:
